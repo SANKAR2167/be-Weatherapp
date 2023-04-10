@@ -23,7 +23,7 @@ app.use(express.urlencoded({ extended: true}))
 app.use(cors());
 
 app.get("/", function (request, response) {
-    response.send(`Hello World !!!, Welcome to Blog App`);
+    response.send(`Hello World !!!, Welcome to Weather App`);
 });
 
 app.use("/users", usersRouter)
